@@ -15,7 +15,7 @@
             <title>{{ config('app.name', 'Hebron Family Church') }}</title>
         </x-inertia::head>
     </head>
-    <body class="font-sans antialiased">
+    <body class="font-sans antialiased relative">
         <x-inertia::app />
     </body>
 </html>
