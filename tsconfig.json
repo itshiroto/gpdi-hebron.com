@@ -115,8 +115,5 @@
         "resources/js/**/*.d.ts",
         "resources/js/**/*.tsx",
         "resources/js/**/*.vue"
-    ],
-    "vueCompilerOptions": {
-        "target": 3.5
-    }
+    ]
 }

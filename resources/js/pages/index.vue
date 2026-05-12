@@ -9,7 +9,7 @@ defineOptions({
 </script>
 
 <template>
-    <section class="w-full h-screen py-12 lg:py-24 bg-cover bg-center bg-white bg-blend-multiply relative" :style="{
+    <section class="w-full h-screen py-4 lg:py-12 bg-cover bg-center bg-white bg-blend-multiply relative" :style="{
         backgroundImage: `
             linear-gradient(white 40%, rgba(0, 0, 0, 0.9) 100%),
             url(${heroImage})
@@ -17,12 +17,12 @@ defineOptions({
     }">
         <div class="h-full flex flex-col justify-end gap-8 max-w-6xl mx-auto p-4">
             <div class="grid lg:grid-cols-2 gap-4 text-white w-full">
-                <h1 class="text-5xl">
+                <h1 class="text-4xl md:text-5xl">
                     United as One Family, <br>
                     <span class="font-semibold">to Live like Christ</span>
                 </h1>
-                <p class="text-neutral-300">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-                    dignissim, ex id laoreet
+                <p class="text-sm md:text-base text-neutral-300">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dignissim, ex id laoreet
                     aliquet, lorem nisl finibus urna, quis ultrices augue orci sit amet est. Fusce massa lacus,
                     consequat eget urna et, sollicitudin sagittis massa. Quisque pellentesque interdum vestibulum.
                 </p>
